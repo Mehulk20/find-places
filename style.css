@@ -240,7 +240,6 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: 5rem;
-  box-shadow: 0 2px 5px rgba(32, 32, 32, 0.264);
 }
 .country-image {
   width: 30rem;
