@@ -92,7 +92,7 @@ body {
   background-size: cover;
 }
 .chanageImg {
-  background-image: url("/sun-svgrepo-com.svg");
+  background-image: url("./sun-svgrepo-com.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
