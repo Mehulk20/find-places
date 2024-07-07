@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest country</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header id="heading-bar">
+            <div class="heading">
+                <h1>Find places</h3>
+            </div>
+            <div class="modes">
+                <div class="mode-img"></div>
+                <p class="mode-txt">Light mode</p>
+            </div>
+        </header>
+        <div class="content-wrap">
+            <section class="search-section">
+                <div class="search-bar">
+                    <span class='search-btn'></span>
+                    <input type="search" name="search" placeholder="search for a country" class="search-box">
+                </div>
+                <div class="filter">
+                    <div class="filter-heading">
+                        <p>Filter by region</p>
+                    </div>
+                    <div class="filter-elements hidden">
+                        <ul class="filter-reagion">
+                            <li class="continents">Asia</li>
+                            <li class="continents">Africa</li>
+                            <li class="continents">Americas</li>
+                            <li class="continents">Europe</li>
+                            <li class="continents">Oceania</li>
+                            <li class="continents">Polar</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="country-container">
+            </section>
+        </div>
+        <div class="information-wrap hidden">
+            <section id="full-information">
+                <div class="backbtn">Back</div>
+                <div class="info-card">
+                    <div class="country-data">
+                        
+                        <div class="border">
+                            <h3 class="border-head">Border countries</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
